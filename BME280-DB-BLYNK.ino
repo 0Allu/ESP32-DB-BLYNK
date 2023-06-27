@@ -23,11 +23,11 @@
 
 Adafruit_BME280 bme, bme1; //sensor 1 and 2
 
-char ssid[] = "KMRA"; // WiFi name & password
-char password[] = "2674700304130";
+char ssid[] = "SSID"; // WiFi name & password
+char password[] = "PASSWORD";
 
-const char* serverName = "https://192.168.1.224/insert_temperature.php"; // DB insert url
-const char* serverName1 = "https://192.168.1.224/insert_temperature1.php"; // DB 2nd insert url
+const char* serverName = "https://192.168.0.0/insert_temperature.php"; // DB insert url
+const char* serverName1 = "https://192.168.0.0/insert_temperature1.php"; // DB 2nd insert url
 
 const int numReadings = 30;  //getting average
 int Sensor1readings[numReadings];
