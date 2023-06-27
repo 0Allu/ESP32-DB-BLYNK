@@ -27,7 +27,6 @@ char ssid[] = "SSID"; // WiFi name & password
 char password[] = "PASSWORD";
 
 const char* serverName = "https://192.168.0.0/insert_temperature.php"; // DB insert url
-const char* serverName1 = "https://192.168.0.0/insert_temperature1.php"; // DB 2nd insert url
 
 const int numReadings = 30;  //getting average
 int Sensor1readings[numReadings];
